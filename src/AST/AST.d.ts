@@ -6,10 +6,6 @@ interface DeclarationNode {
     readonly right: ProgramNode;
 }
 
-// interface StringNode{
-
-// }
-
 interface NumberNode {
     readonly int: number;
 }
@@ -55,5 +51,5 @@ interface DivisionNode {
 }
 
 interface ProgramNode {
-    root: ExpressionNode | undefined; // FIX
+    root: ExpressionNode | undefined;
 }
